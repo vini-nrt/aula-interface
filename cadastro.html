@@ -1,55 +1,73 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    </head>
 <title> Cadastro ZYOGA </title>
+
 <body>
-          <h1>Cadastro de Aluno </h1> 
-          <p class="link">  
-            Já tem conta?
-                     <a href="#paralogin"> Ir para Login </a>
-          </p>
-          <main>
-          <p> 
-            <label for="nome_cad">Seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text"/>
-          </p>
-          
-          <p> 
-            <label for="email_cad">Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email"/><br>
-          </p>
-          
-          <p> 
-            <label for="senha_cad">Sua senha</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
-          </p>
-          
-          <p> 
-            <label for="celular_cad">Celular </label>
-            <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
-          </p>
+  <p id="tipos"><h1> ZYOGA </h1> </p> 
+        
 
-          <p> 
-            <label for="exp">Experiência </label> <br>
-            <input type="checkbox" name="exp_I" id="exp_I"/> Iniciante 
-            <input type="checkbox" name="exp_II" id="exp_II"/> Intermediário
-            <input type="checkbox" name="exp_III" id="exp_III"/> Avançado
-          </p>
+  <div class="btn-group">
+     <button class="button">Button</button>
+     <button class="button">Button</button>
+     <button class="button">Button</button>
+     <button class="button">Button</button>
+ </div>
+ <div class="cadastro-aluno">
+    <p id="cadastro"> <h2>Cadastro de Aluno </h2> </p>
+ <p id="link"> Já tem conta? 
+  <a href="#paralogin"> Ir para Login </a>
+  </p>
+</div>
+ <main>
+  <p>     
+      <label for="nome_cad"> Nome Completo </label>
+    <input id="nome_cad" name="nome_cad" required="required" type="text"/>
+  </p>
+          
+  <p> 
+  <label for= "email_cad" >Seu e-mail </label>
+    <input id="email_cad" name="email_cad" required="required" type="email"/><br>
+ </p>
+          
+  <p> 
+  <label for="senha_cad">Sua senha</label>
+  <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
+  </p>
+          
+  <p> 
+  <label for="celular_cad">Celular </label>
+  <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
+  </p>
 
-          <p> 
-            <label for="exp">Tipo de Yoga de interesse </label> <br>
-           
-            <input type="checkbox" name="tipo_I" id="tipo_I"/> Hatha Yoga
-            <input type="checkbox" name="tipo_II" id="tipo_II"/> Ashtanga Yoga
-            <input type="checkbox" name="tipo_III" id="tipo_III"/> Kundalini Yoga
-            <input type="checkbox" name="tipo_IV" id="tipo_IV"/> Vinyasa Yoga
-          </p>
+  <p> 
+  <label for="exp">Experiência </label> <br>
+    <input type="checkbox" name="exp_I" id="exp_I"/> Iniciante 
+    <input type="checkbox" name="exp_II" id="exp_II"/> Intermediário
+    <input type="checkbox" name="exp_III" id="exp_III"/> Avançado
+ </p>
+
+  <p> 
+  <label for="exp">Tipo de Yoga de interesse </label> <br>   
+    <input type="checkbox" name="tipo_I" id="tipo_I"/> Hatha Yoga
+    <input type="checkbox" name="tipo_II" id="tipo_II"/> Ashtanga Yoga
+    <input type="checkbox" name="tipo_III" id="tipo_III"/> Kundalini Yoga
+    <input type="checkbox" name="tipo_IV" id="tipo_IV"/> Vinyasa Yoga
+  </p>
           
-          <p> 
-            <input type="submit" value="Cadastrar"/><br> 
-          </p>
+  <p> 
+   <input type="submit" value="Cadastrar"/><br> 
+  </p>
           
-        </main>
-        <footer>
-            <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
-        </footer>
-    </body>
-    </html>
+  </main>
+        
+  <footer>
+   <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
+  </footer>
+  
+</body>
+
+</html>
