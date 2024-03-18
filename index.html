@@ -1,73 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="main.css">
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
-    </head>
-<title> Cadastro ZYOGA </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYOGA</title>
+</head>
 
 <body>
-  <p id="tipos"><h1> ZYOGA </h1> </p> 
-        
+    <header>
+        <h1>Bem-vindo ao ZYOGA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#courses">Cursos</a></li>
+            <li><a href="#presence">Presença</a></li>
+            <li><a href="feedback.html">Feedbacks</a></li>
+            <li><a href="cadastroprof.html">Cadastro do Professor</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro do Aluno</a></li>
+        </ul>
+    </nav>
 
-  <div class="btn-group">
-     <button class="button">Button</button>
-     <button class="button">Button</button>
-     <button class="button">Button</button>
-     <button class="button">Button</button>
- </div>
- <div class="cadastro-aluno">
-    <p id="cadastro"> <h2>Cadastro de Aluno </h2> </p>
- <p id="link"> Já tem conta? 
-  <a href="#paralogin"> Ir para Login </a>
-  </p>
-</div>
- <main>
-  <p>     
-      <label for="nome_cad"> Nome Completo </label>
-    <input id="nome_cad" name="nome_cad" required="required" type="text"/>
-  </p>
-          
-  <p> 
-  <label for= "email_cad" >Seu e-mail </label>
-    <input id="email_cad" name="email_cad" required="required" type="email"/><br>
- </p>
-          
-  <p> 
-  <label for="senha_cad">Sua senha</label>
-  <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
-  </p>
-          
-  <p> 
-  <label for="celular_cad">Celular </label>
-  <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
-  </p>
-
-  <p> 
-  <label for="exp">Experiência </label> <br>
-    <input type="checkbox" name="exp_I" id="exp_I"/> Iniciante 
-    <input type="checkbox" name="exp_II" id="exp_II"/> Intermediário
-    <input type="checkbox" name="exp_III" id="exp_III"/> Avançado
- </p>
-
-  <p> 
-  <label for="exp">Tipo de Yoga de interesse </label> <br>   
-    <input type="checkbox" name="tipo_I" id="tipo_I"/> Hatha Yoga
-    <input type="checkbox" name="tipo_II" id="tipo_II"/> Ashtanga Yoga
-    <input type="checkbox" name="tipo_III" id="tipo_III"/> Kundalini Yoga
-    <input type="checkbox" name="tipo_IV" id="tipo_IV"/> Vinyasa Yoga
-  </p>
-          
-  <p> 
-   <input type="submit" value="Cadastrar"/><br> 
-  </p>
-          
-  </main>
-        
-  <footer>
-   <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
-  </footer>
-  
+    <main>
+        <section id="courses">
+            <h2>Cursos disponíveis</h2>
+                <p>Oferecemos diversas aulas com professores voluntários, cada qual com sua especialidade.</p>
+                <p>Cursos: 
+                    <ul>
+                        <li>Hatha Yoga</li>
+                        <li>Ashtanga Yoga</li>
+                        <li>Kundalini Yoga</li>
+                        <li>Vinyasa Yoga</li>
+                    </ul>
+                </p>
+        </section>
+        <section id="presence">
+            <h2>Presença</h2>
+                <p>Mantemos registro da presença dos alunos em aula, para que possamos acompanhar o desenvolvimento de cada um individualmente.</p>
+        </section>
+        <section id="feedbacks">
+            <h2>Feedbacks</h2>
+                <p>Possuímos uma aba para os alunos postarem seus feedbacks sobre as aulas e instrutores.</p>
+        </section>
+    </main>
+    <footer>
+            <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
+    </footer>
 </body>
-
-</html>
+</html>  
