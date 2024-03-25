@@ -26,7 +26,7 @@ body {
 /* Efeito da Barra */
  
 .button:hover {
-    background-color: #04AA6D;
+    background-color: #ffffff;
     color: white;
   }
 
@@ -62,3 +62,4 @@ body {
         }
     
         
+
