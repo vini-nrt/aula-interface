@@ -1,7 +1,7 @@
 body {
     
     background-color: #f5e1ce;
-    font-family: ;
+    font-family: Georgia, serif;
   text-align: center;
   
   }
@@ -83,5 +83,20 @@ body {
     }
 
     #username {
+    border-radius: 7px;  
+    background-color: #996b42;
+    padding: 3px 30px;
+    color: #996b42;
+    font-size: medium;
+    margin: 0% auto;
 
+    }
+
+    #password {
+    border-radius: 7px;
+    background-color: #996b42;
+    padding: 3px 30px;
+    color: #996b42;
+    font-size: medium;
+    margin: 0% auto;
     }
