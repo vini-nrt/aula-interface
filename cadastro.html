@@ -32,44 +32,50 @@
   </p>
 </div>
  <main>
-  <p>     
-      <label for="nome_cad"> Nome Completo </label>
-    <input id="nome_cad" name="nome_cad" required="required" type="text"/>
-  </p>
-          
-  <p> 
-  <label for= "email_cad" >Seu e-mail </label>
-    <input id="email_cad" name="email_cad" required="required" type="email"/><br>
- </p>
-          
-  <p> 
-  <label for="senha_cad">Sua senha</label>
-  <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
-  </p>
-          
-  <p> 
-  <label for="celular_cad">Celular </label>
-  <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
-  </p>
+        <form action="">
+            <div class="cadastro-aluno">
+                <p id="cadastro"> <h2>Cadastro de Aluno </h2> </p>
+                <p id="link"> Já tem conta? <a href="#paralogin"> Ir para Login </a> </p>
+            </div>
+            <p>     
+                <label for="nome_cad"> Nome Completo </label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text"/>
+            </p>
+            
+            <p> 
+                <label for= "email_cad" >Seu e-mail </label>
+                <input id="email_cad" name="email_cad" required="required" type="email"/><br>
+            </p>
+            
+            <p> 
+                <label for="senha_cad">Sua senha</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
+            </p>
+            
+            <p> 
+                <label for="celular_cad">Celular </label>
+                <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
+            </p>
 
-  <p> 
-  <label for="exp">Experiência </label> <br>
-    <input type="checkbox" name="exp_I" id="exp_I"/> Iniciante 
-    <input type="checkbox" name="exp_II" id="exp_II"/> Intermediário
-    <input type="checkbox" name="exp_III" id="exp_III"/> Avançado
- </p>
-
-  <p> 
-  <label for="exp">Tipo de Yoga de interesse </label> <br>   
-    <input type="checkbox" name="tipo_I" id="tipo_I"/> Hatha Yoga
-    <input type="checkbox" name="tipo_II" id="tipo_II"/> Ashtanga Yoga
-    <input type="checkbox" name="tipo_III" id="tipo_III"/> Kundalini Yoga
-    <input type="checkbox" name="tipo_IV" id="tipo_IV"/> Vinyasa Yoga <br>
-  </p>
-    <p>
-  <input type="submit" id="cadastrar" value="Cadastrar">
- </p>
-          
+            <p class="section">
+                <strong>Experiência</strong> <br>
+                <label for="exp_I"><input type="checkbox" name="exp_I" id="exp_I"> Iniciante</label>
+                <label for="exp_II"><input type="checkbox" name="exp_II" id="exp_II"> Intermediário</label>
+                <label for="exp_III"><input type="checkbox" name="exp_III" id="exp_III"> Avançado</label>
+            </p>
+            
+            <p class="section">
+                <strong>Tipo de Yoga de interesse</strong> <br>
+                <label for="tipo_I"><input type="checkbox" name="tipo_I" id="tipo_I"> Hatha Yoga</label>
+                <label for="tipo_II"><input type="checkbox" name="tipo_II" id="tipo_II"> Ashtanga Yoga</label>
+                <label for="tipo_III"><input type="checkbox" name="tipo_III" id="tipo_III"> Kundalini Yoga</label>
+                <label for="tipo_IV"><input type="checkbox" name="tipo_IV" id="tipo_IV"> Vinyasa Yoga</label>
+            </p>            
+            
+            <p>
+                <input type="submit" id="cadastrar" value="Cadastrar">
+            </p>
+        </form>
   </main>
         
   <footer>
