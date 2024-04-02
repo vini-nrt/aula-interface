@@ -1,4 +1,4 @@
- * {
+* {
     font-family: "Crimson Pro", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -34,7 +34,7 @@
     /* Efeito da Barra */
     
     .button:hover {
-      background-color: #ffffff;
+      background-color: rgb(158, 115, 86);
       color: white;
     }
     
@@ -66,7 +66,7 @@
         max-width: 300px;
         margin: 50px auto;
         padding: 2px;
-        background-color: #dddddd;
+        background-color: #eeeeee;
         border: 10px solid #df040400; /* Adiciona a borda */
         border-radius: 9px; /* Borda arredondada */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -82,12 +82,13 @@
           border-radius: 10px;
           background-color: #996b42;
           padding: 12px 24px;
-          color: #f5e1ce;
+          color: #a06631;
           font-size: 14px;
           margin: 0px auto;
   
       }
-  
+    
+      
       #username {
       border-radius: 7px;  
       background-color: #996b42;
