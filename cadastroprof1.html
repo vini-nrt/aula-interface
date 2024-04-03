@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="cadastroprof.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<title>Cadastro de Professor </title>
+<meta charset="utf-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    
+    <nav>
+        <div class="logo"><a href="https://imgbb.com/">
+            <img src="https://i.ibb.co/QXxrvWW/Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2.png" 
+            alt="Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2" 
+            height="80" ></a></div>
+       
+        <div class="links">
+            <ul class="nav-itens">
+               <li><a href="index.html" id="af">Início</a></li>
+               <li><a href="quemsomos.html"id="af">Sobre nós</a></li>
+               <li><a href="tipos.html"id='af'>Cursos</a></li>
+               <li><a href="feedback.html"id='af'>Avaliações</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button href="login.html" class="login">Login</button>
+            <button href="cadastro.html" class="cadastro">Cadastro</button>
+        </div>
+
+        
+    </nav>
+    
+  <main>
+    <form action="">
+      <div class="cadastro-aluno">
+        <h2>Cadastro de Professor</h2>
+        <p class="link">Já tem conta? <a href="#paralogin">Ir para Login</a></p>
+      </div>
+
+      <p>
+        <label for="nome_cad">Nome Completo</label>
+        <input id="nome_cad" name="nome_cad" required="required" type="text"/>
+      </p>
+      
+      <p>
+        <label for="email_cad">Seu e-mail</label>
+        <input id="email_cad" name="email_cad" required="required" type="email"/><br>
+      </p>
+      
+      <p>
+        <label for="senha_cad">Sua senha</label>
+        <input id="senha_cad" name="senha_cad" required="required" type="password"/><br>
+      </p>
+      
+      <p>
+        <label for="celular_cad">Celular</label>
+        <input id="celular_cad" name="celular_cad" required="required" type="text"/><br>
+      </p>
+
+      <!--<p class="section">
+        <strong>Experiência</strong> <br>
+        <label for="exp_I"><input type="checkbox" name="exp_I" id="exp_I"> Iniciante</label>
+        <label for="exp_II"><input type="checkbox" name="exp_II" id="exp_II"> Intermediário</label>
+        <label for="exp_III"><input type="checkbox" name="exp_III" id="exp_III"> Avançado</label>
+      </p>-->
+
+      <p class="section">
+        <strong>Especialidade</strong> <br>
+        <label for="tipo_I"><input type="checkbox" name="tipo_I" id="tipo_I"> Hatha Yoga</label>
+        <label for="tipo_II"><input type="checkbox" name="tipo_II" id="tipo_II"> Ashtanga Yoga</label>
+        <label for="tipo_III"><input type="checkbox" name="tipo_III" id="tipo_III"> Kundalini Yoga</label>
+        <label for="tipo_IV"><input type="checkbox" name="tipo_IV" id="tipo_IV"> Vinyasa Yoga</label>
+      </p>
+      
+      <p>
+        <input type="submit" id="cadastrar" value="Cadastrar">
+      </p>
+    </form>
+  </main>
+
+  <footer class="final">   
+    <p><h6>&copy; 2024 ZYOGA. Todos os direitos reservados.<h6></p>
+</footer>
+
+</body>
+</html>
