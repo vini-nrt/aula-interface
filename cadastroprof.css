@@ -13,11 +13,6 @@
     padding: 0;
   }
   
-  .header {
-    background-color: #ad8b6d;
-    padding: 20px;
-    text-align: center;
-  }
   
   nav {
     display: flex;
@@ -29,31 +24,23 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .logo {
-    font-weight: 800;
-    font-size: 25px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   display: flex;
+  }
+   
+  li a {
+   color:  #fbeed3;
+   text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
   }
   
-  .nav-itens {
-    list-style: none;
-    display: flex;
-    font-size: 18px;
-    color: #fbeed3;
-  }
-  
-  .nav-itens>li>a {
-    padding-left: 20px;
-    color: #fbeed3;
-    text-decoration: none;
-  }
-  
-  #af:hover {
+  li a:hover {
     background-color: #6D997A;
-    color: white;
-    padding: 30px 8px;
-    margin: auto;
-  }
-  
+  }            
   .login,
   .cadastro {
     padding: 10px 40px;
@@ -155,7 +142,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
+
+  .final{
+    background-color: #77A290;
+   text-align: center;
+   }
   input[type="submit"]:hover {
     background-color: #6b3d1d;
   }
