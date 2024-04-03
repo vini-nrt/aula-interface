@@ -1,0 +1,77 @@
+* {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+   }
+  
+   nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    align-items: center;
+    color: #202020;
+    background-color:#77A290 ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-weight: 800;
+    font-size: 25px;
+    
+  }
+  
+  .nav-itens {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: #fbeed3;
+  }
+  
+  .nav-itens>li>a {
+    padding-left: 20px;
+    color:#fbeed3;
+    text-decoration: none;
+    
+  }
+  #af:hover {
+    background-color: #6D997A;
+    color: white;
+    padding: 30px 8px;
+    margin:auto;
+    
+  }
+  
+  .login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #202020;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+  .cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #42282c;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+  .cadastro:hover {
+    background-color: #3d3d3d;
+  }
+  
+  .final{
+    background-color: #6D997A;
+   text-align: center;
+   margin-bottom: 20px;
+   text-align: center;
+   }
