@@ -144,3 +144,16 @@ input[type="submit"]:hover {
  text-align: center;
  margin-bottom: 20px;
    }
+
+     .floating-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #ad8b6d;
+        padding: 12px 24px;
+        color: #ffffff;
+        font-size: 14px;
+        margin: 0px auto;
+        border: none
+    
+    }
