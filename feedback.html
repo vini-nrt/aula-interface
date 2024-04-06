@@ -1,54 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="feedback.css">
+  <head>
+    <link rel="stylesheet" href="feedbackcopy.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Feedback ZYOGA</title>
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    </head>
+<title> Feedback ZYOGA </title>
+
+<div class="header">         
+</div>
+
 <body>
-    <nav>
-        <div class="logo">
-            <a href="https://imgbb.com/">
-                <img src="https://i.ibb.co/QXxrvWW/Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2.png" 
-                alt="Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2" 
-                height="80">
-            </a>
+  
+
+  <nav>
+    <div class="logo"><a href="https://imgbb.com/">
+        <img src="https://i.ibb.co/QXxrvWW/Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2.png" 
+        alt="Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2" 
+        height="80" ></a></div>
+   
+    <div class="links">
+        <ul class="nav-itens">
+           <li><a href="index.html" id="af">Início</a></li>
+           <li><a href="quemsomos.html"id="af">Sobre nós</a></li>
+           <li><a href="tipos.html"id='af'>Cursos</a></li>
+           <li><a href="feedback.html"id='af'>Avaliações</a></li>
+           <li><a href="profs.html"id='af'>Professores</a></li>
+        </ul>
+    </div>
+    <div class="btn">
+        <button href="login.html" class="login">Login</button>
+        <button href="cadastro.html" class="cadastro">Cadastro</button>
+    </div>
+
+  </nav>
+<head>
+ 
+    <meta charset="UTF-8">
+    <title>ZYOGA FEEDBACK</title>
+</head>
+
+<main>
+<div class="painelfeedback">
+    <h1 id="titulo1">Deixe seu Feedback!</h1>
+
+
+    <label for="username">Feedback:</label><br>
+    <textarea class="textrow" rows="8" cols="50"> </textarea>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="media">Envio de imagens</label>
+        <input type="file" id="media" name="media" accept="image/*">
+        <input type="submit" value="Fazer Upload"> <br>
+        
+
+    <h2 style="font-weight: normal;">Deixe sua nota:</h>
+    <div class="estrelas-nota">
+      <input type="radio" id="estrela1" name="nota" value="1">
+      <label for="estrela1"></label>
+      <input type="radio" id="estrela2" name="nota" value="2">
+      <label for="estrela2"></label>
+      <input type="radio" id="estrela3" name="nota" value="3">
+      <label for="estrel3"></label>
+      <input type="radio" id="estrela4" name="nota" value="4">
+      <label for="estrela4"></label>
+      <input type="radio" id="estrela5" name="nota" value="5">
+      <label for="estrela5"></label>
+
+    </div>
+    
+
+    <input type="submit" id=cadastrar value="Enviar">
+
+  </div>
+
+    <h1 id="titulo2"> Feedbacks</h1>
+    </div>
+      <div class="usuario">
+        <img src="https://images.generated.photos/KKjYI2cAQLrM-UOmXw9WNXn6OzSeFDcFTcj4qgNwQac/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjU4NjE3LmpwZw.jpg" alt="Profile Picture">
+        <h3>Rita Nunes
+          <p id="estrela">★★★★★</p></h3>
+        <p class="avaliacao"> Gostei muito dos serviços de Yoga principalmente o Hatha Yoga, professores muito gentis e ambiente agradável!</p>
+      
+      <div class="foto-avaliacao">
+        <img src="https://caicaras.com.br/wordpress/wp-content/uploads/2023/12/Yoga-1-1024x877.jpg" alt="foto 1">
+       
+      </div>  
+      </div> <br>
+
+      <div class="usuario">
+          <img src="https://images.generated.photos/3gZTbdVz_LwdAlfzBvegJ9VKWHkjEjCsOCnltX1QYGo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/OTYyMDIwLmpwZw.jpg" alt="Profile Picture">
+          <h3>Clarice Guimarães
+            <p id="estrela">★★★★★</p></h3> <br>
+          <p class="avaliacao"> Queria agradecer aos professores que me acolheram desde o meu primeiro dia, com certeza vou recomendar para mais pessoas</p>
+      
+        <div class="foto-avaliacao">
+          <img src="https://d3c1e34umh9o6d.cloudfront.net/image/partners/a8ee5cc7-0aff-4d5e-9b6f-a7a1a10f763d/md_62efe0e2-e868-47ed-8b8e-1c2380f3483c_20220712173528.jpg" alt="foto 1">
+          <img src="https://diariodorio.com/wp-content/uploads/2017/06/Svadharma-1024x768.jpg" alt="foto 2">
         </div>
-        <div class="links">
-            <ul class="nav-itens">
-                <li><a href="index.html" id="af">Início</a></li>
-                <li><a href="quemsomos.html"id="af">Sobre nós</a></li>
-                <li><a href="tipos.html"id='af'>Cursos</a></li>
-                <li><a href="feedback.html"id='af'>Avaliações</a></li>
-                <li><a href="profs.html"id='af'>Professores</a></li>
-            </ul>
-        </div>
-        <div class="btn">
-            <button onclick="window.location.href='login.html'" class="login">Login</button>
-            <button onclick="window.location.href='cadastro.html'" class="cadastro">Cadastro</button>
-        </div>
-    </nav>
+      </div> <br>
 
-    <main class="content">
-        <h1 class="subtitle">Deixe seu Feedback!</h1>
-        <form action="dashboard.html" method="post">
-            <label for="username">Usuário:</label><br>
-            <input type="text" id="username" name="username"><br>
+        <div class="usuario">
+            <img src="https://images.generated.photos/NenHcEq-6qFlLE0tjAfq5pkk-GtV3KnfX_G17-UcpXs/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NzE4MjQ5LmpwZw.jpg" alt="Profile Picture">
+            <h3>Henrique Bastos
+              <p id="estrela">★★★★★</p></h3>
+            <p class="avaliacao"> Muitas opções de aulas de Yoga, excelente exercício físico e ótimas localizações</p>
+          </div> <br>
+         
+          
+        <div class="usuario"> <br> 
+              <img src="https://images.generated.photos/DyE7VkFpKfdVrud2Vi_h9hDwgVcJVT_jmsHl6rS1RCI/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjUzMDEwLmpwZw.jpg" alt="Profile Picture">
+              <h3>Livia Cavalcanti
+                <p id="estrela">★★★★★</p></h3>
+              <p class="avaliacao"> Tive ótimas experiências nas aulas em que estive presente, professores altamente qualificados. Obrigada!</p>
+            </div>
+            
+            
 
-            <br><label for="username">Feedback:</label><br>
-            <textarea rows="10" cols="50"> </textarea>
 
-            <label for="media">Envio de imagens</label>
-            <input type="file" id="media" name="media" accept="image/*">
-            <input type="submit" value="Enviar">
-        </form>
-    </main>
 
-    <footer class="footer">
-        <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
-    </footer>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
+</footer>
+
+
 </body>
+
+
 </html>
