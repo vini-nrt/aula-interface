@@ -1,153 +1,168 @@
-* {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    margin: 0;
-    text-align: center;
-    letter-spacing: 2; 
-    padding: 0;
-  }
-  
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0;
-    align-items: center;
-    color: #202020;
-    background-color: #77A290;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-   display: flex;
-  }
-   
-  li a {
-   color:  #fbeed3;
-   text-align: center;
-  padding: 30px 16px;
-  text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #6D997A;
-  }            
-  .login,
-  .cadastro {
-    padding: 10px 40px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-  }
-  
-  .login {
-    color: #202020;
-    background-color: #fff;
-  }
-  
-  .cadastro {
-    color: #fff;
-    background-color: #42282c;
-  }
-  
-  .cadastro:hover {
-    background-color: #3d3d3d;
-  }
-  
-  main {
-    margin: 50px auto;
-    width: 80%;
-    max-width: 400px;
-    text-align: left;
-  }
-  
-  .cadastro-aluno {
-    margin-top: 15px;
-  }
-  
-  form {
-    max-width: 400px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    align-items: center;
-  }
-  
-  form h2 {
-    margin-bottom: 20px;
-    color: #854f2c;
-    font-weight: bold;
-  }
-  
-  form p {
-    margin-bottom: 10px;
-  }
-  
-  form p label {
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  .section strong {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .section label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .section input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  input[type="submit"] {
-    width: 100%;
-    background-color: #854f2c;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+.final{
+  background-color: #6D997A;
+ text-align: center;
+ margin-bottom: 20px;
+ }
 
-  .final{
-    background-color: #77A290;
-   text-align: center;
-   }
-  input[type="submit"]:hover {
-    background-color: #6b3d1d;
-  }
-  
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2; 
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  align-items: center;
+  color: #202020;
+  background-color: #77A290;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.nav-itens {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  color: #fbeed3;
+}
+
+.nav-itens>li>a {
+  padding-left: 20px;
+  color: #fbeed3;
+  text-decoration: none;
+}
+
+#af:hover {
+  background-color: #6D997A;
+  color: white;
+  padding: 30px 8px;
+  margin: auto;
+}
+
+.login,
+.cadastro {
+  padding: 10px 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.login {
+  color: #202020;
+  background-color: #fff;
+}
+
+.cadastro {
+  color: #fff;
+  background-color: #42282c;
+}
+
+.cadastro:hover {
+  background-color: #3d3d3d;
+}
+
+main {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.cadastro-aluno {
+  margin-top: 15px;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #854f2c;
+  font-weight: bold;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+form p label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section strong {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.section input[type="checkbox"] {
+  margin-right: 5px;
+} 
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #854f2c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #6b3d1d;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #77A290;
+  text-align: center;
+  padding: 20px;
+}
