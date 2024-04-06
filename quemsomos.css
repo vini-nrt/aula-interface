@@ -4,36 +4,43 @@
     font-style: normal;
     margin: 0;
     padding: 0;
-    color: inherit; 
-    text-decoration: none;
-   }
+    box-sizing: border-box;
+  }
   
   nav {
     display: flex;
     justify-content: space-around;
+    margin-top: 0;
     align-items: center;
-    background-color:#77A290 ;
+    color: #202020;
+    background-color: #77A290;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
   }
   
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-     display: flex;
-    }
-     
-    li a {
-     color:  #fbeed3;
-     text-align: center;
-    padding: 30px 16px;
+  .logo {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  
+  .nav-itens {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: #fbeed3;
+  }
+  
+  .nav-itens>li>a {
+    padding-left: 20px;
+    color: #fbeed3;
     text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #6D997A;
-    }
+  }
+  
+  #af:hover {
+    background-color: #6D997A;
+    color: white;
+    padding: 30px 8px;
+    margin: auto;
+  }
   
   .login {
     padding: 10px 40px;
@@ -44,7 +51,6 @@
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-   
   }
   
   .cadastro {
@@ -61,19 +67,46 @@
   .cadastro:hover {
     background-color: #3d3d3d;
   }
-  
-  div.retangulo {
+
+.retangulo {
     background-image: url(https://live.staticflickr.com/65535/53630130141_4ea8508526_k.jpg);
-    display: inline-block;
     width: 100%;
     height: 300px;
-  background-position: center;
-  box-shadow: px 0px 100px rgba(0, 0, 0, 0.1)}
-  
- 
-  .final{
-   background-color: #77A290;
-  text-align: center;
-  }
-  
+    background-position: center;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
 
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9e2d4;
+    padding: 30px;
+}
+
+.quadrado {
+    background-image: url("https://live.staticflickr.com/65535/53630661827_b75f934e38_z.jpg");
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 200px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #77A290;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
