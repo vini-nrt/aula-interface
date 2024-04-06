@@ -4,35 +4,41 @@
   font-style: normal;
   margin: 0;
   padding: 0;
- }
+}
 
- nav {
+nav {
   display: flex;
   justify-content: space-around;
   margin-top: 0;
   align-items: center;
   color: #202020;
-  background-color:#77A290 ;
+  background-color: #77A290;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
- display: flex;
-}
- 
-li a {
- color:  #fbeed3;
- text-align: center;
-padding: 30px 16px;
-text-decoration: none;
+.logo {
+  font-weight: 800;
+  font-size: 25px;
 }
 
-li a:hover {
+.nav-itens {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  color: #fbeed3;
+}
+
+.nav-itens>li>a {
+  padding-left: 20px;
+  color: #fbeed3;
+  text-decoration: none;
+}
+
+#af:hover {
   background-color: #6D997A;
+  color: white;
+  padding: 30px 8px;
+  margin: auto;
 }
 
 .login {
@@ -59,10 +65,6 @@ li a:hover {
 
 .cadastro:hover {
   background-color: #3d3d3d;
-}
-
-footer {
-  margin-bottom: 20px;
 }
 
 form {
@@ -104,6 +106,7 @@ input[type="password"] {
   border-radius: 5px;
   box-sizing: border-box;
 }
+
 .section {
   margin-bottom: 20px;
 }
@@ -121,7 +124,7 @@ input[type="password"] {
 
 .section input[type="checkbox"] {
   margin-right: 5px;
-} 
+}
 
 input[type="submit"] {
   width: 100%;
@@ -139,21 +142,11 @@ input[type="submit"]:hover {
   background-color: #6b3d1d;
 }
 
-.final{
-  background-color: #6D997A;
- text-align: center;
- margin-bottom: 20px;
-   }
-
-     .floating-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #ad8b6d;
-        padding: 12px 24px;
-        color: #ffffff;
-        font-size: 14px;
-        margin: 0px auto;
-        border: none
-    
-    }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #77A290;
+  text-align: center;
+  padding: 20px;
+}
