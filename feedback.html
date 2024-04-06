@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <link rel="stylesheet" href="feedback.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    </head>
-<title> Feedback ZYOGA </title>
-
-<div class="header">
-  <a href="https://ibb.co/TP0jm03"><img src="https://i.ibb.co/VMCn2C4/eef5afc6-2f39-4e61-80ba-beb6f7e7c423.jpg" alt="eef5afc6-2f39-4e61-80ba-beb6f7e7c423" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'></a><br/>
-</div>
-
-<body>
-  
-
-  <div class="btn-group">
-    <button class="button">Início</button>
-    <button class="button">Quem somos</button>
-    <button class="button">Tipos de Yoga</button>
-    <button class="button">Feedbacks</button>
-    <button class="button">Cadastro</button>
-    <button class="button">Login</button>
-
-     </div>
-<head>
-    <meta charset="UTF-8">
-    <title>ZYOGA FEEDBACK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Feedback ZYOGA</title>
 </head>
-
 <body>
-    <h1>Deixe seu Feedback!</h1>
+    <nav>
+        <div class="logo">
+            <a href="https://imgbb.com/">
+                <img src="https://i.ibb.co/QXxrvWW/Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2.png" 
+                alt="Predicado-Nominal-Predicado-Verbal-Predicado-Verbo-nominal-2" 
+                height="80">
+            </a>
+        </div>
+        <div class="links">
+            <ul class="nav-itens">
+                <li><a href="index.html" id="af">Início</a></li>
+                <li><a href="quemsomos.html"id="af">Sobre nós</a></li>
+                <li><a href="tipos.html"id='af'>Cursos</a></li>
+                <li><a href="feedback.html"id='af'>Avaliações</a></li>
+                <li><a href="profs.html"id='af'>Professores</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button href="login.html" class="login">Login</button>
+            <button href="cadastro.html" class="cadastro">Cadastro</button>
+        </div>
+    </nav>
 
-<main>
-    <form action="dashboard.html" method="post"></form>
-    <label for="username">Usuário:</label><br>
-    <input type="text" id="username" name="username"><br>
+    <main class="content">
+        <h1 class="subtitle">Deixe seu Feedback!</h1>
+        <form action="dashboard.html" method="post">
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username"><br>
 
+            <br><label for="username">Feedback:</label><br>
+            <textarea rows="10" cols="50"> </textarea>
 
+            <label for="media">Envio de imagens</label>
+            <input type="file" id="media" name="media" accept="image/*">
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
 
-    <br><label for="username">Feedback:</label><br>
-    <textarea rows="10" cols="50"> </textarea>
-
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <label for="media">Envio de imagens</label>
-        <input type="file" id="media" name="media" accept="image/*">
-        <input type="submit" value="Fazer Upload"><br><br>
-        
-    <input type="submit" id=cadastrar value="Enviar">
-
-</main>
-
-<footer>
-    <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
-</footer>
-
-
+    <footer class="footer">
+        <p>&copy; 2024 ZYOGA. Todos os direitos reservados.</p>
+    </footer>
 </body>
-
-
 </html>
