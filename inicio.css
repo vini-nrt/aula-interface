@@ -336,7 +336,11 @@ footer .line-footer p a {
     color: #fff;
 }
 
-.final{
+.footer {
+    bottom: 0;
+    width: 100%;
     background-color: #77A290;
-   text-align: center;
-   }
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
