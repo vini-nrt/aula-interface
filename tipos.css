@@ -127,6 +127,18 @@ div.texto {
     text-indent: 30px;
     max-width: 800px;
 }
+ .floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #85572d;
+            padding: 12px 24px;
+            color: #ffffff;
+            font-size: 14px;
+            margin: 0px auto;
+            border: none;
+            border-radius: 20px;
+        }
 
 .footer {
     bottom: 0;
@@ -136,6 +148,7 @@ div.texto {
     text-align: center;
     padding: 20px;
 }
+
 
 h3 {
     color: #00663a;
