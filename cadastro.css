@@ -155,6 +155,22 @@
   .cadastro:hover {
     background-color: #3d3d3d;
   }
+
+.cadastro-prof {
+    padding: 8px 120px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #42282c;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro-prof:hover {
+    background-color: #3d3d3d;
+}
+
   
   input[type="submit"]:hover {
     background-color: #6b3d1d;
