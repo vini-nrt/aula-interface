@@ -195,18 +195,26 @@
       #estrela {
         color: #42282c;
       }
- .floating-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #85572d;
-            padding: 12px 24px;
-            color: #ffffff;
-            font-size: 14px;
-            margin: 0px auto;
-            border: none;
-            border-radius: 20px;
-        }
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4d301f;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button:hover {
+  background-color: #7a452f;
+}
     
       .footer {
     bottom: 0;
