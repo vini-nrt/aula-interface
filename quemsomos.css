@@ -117,14 +117,23 @@ div.texto {
     text-indent: 30px;
     max-width: 800px;
 }
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #85572d;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0px auto;
+    border: none;
+    border-radius: 20px;
+
+}
 .direitos {
     bottom: 0;
-    width: 100%;
-    background-color: #77A290;
-    color: #000000;
-    text-align: center;
+    text-align:center;
     padding: 20px;
-    margin-top: auto;
 }
 h5 {
     color: #00663a;
