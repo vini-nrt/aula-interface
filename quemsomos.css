@@ -79,8 +79,8 @@ div.caixaA,
 div.caixaV,
 div.caixaB,
 div.caixaC {
-    width: 50%;
-    height: 400px;
+    width: 35%;
+    height: 280px;
     background-position: center;
     margin-left: 300px;
     border-radius: 200px;
@@ -96,11 +96,11 @@ div.caixaV {
 }
 
 div.caixaB {
-    background-image: url("https://live.staticflickr.com/65535/53637403305_9ccf1e68ee_z.jpg");
+    background-image: url("https://live.staticflickr.com/65535/53637654940_101a85cff5.jpg");
 }
 
 div.caixaC {
-    background-image: url("https://live.staticflickr.com/65535/53637164113_01225dd57a_z.jpg");
+    background-image: url("https://live.staticflickr.com/65535/53637217841_d7960e1845.jpg");
 }
 
 .conteudo {
