@@ -195,6 +195,18 @@
       #estrela {
         color: #42282c;
       }
+ .floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #85572d;
+            padding: 12px 24px;
+            color: #ffffff;
+            font-size: 14px;
+            margin: 0px auto;
+            border: none;
+            border-radius: 20px;
+        }
     
       .footer {
     bottom: 0;
