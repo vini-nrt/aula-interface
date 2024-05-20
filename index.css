@@ -6,7 +6,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+.nav-link {
+    color: rgb(243, 242, 201);
+  }
+  .nav-link:hover {
+    color: rgba(88, 51, 33, 0.466)
+  }
+  body {
     background-color: #77A290;
     height: 100vh;
 }
@@ -14,7 +20,9 @@ body {
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    
 }
+
 
 .flex {
     display: flex;
