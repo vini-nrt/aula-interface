@@ -203,3 +203,67 @@
     text-align: center;
     padding: 20px;
   }
+  
+  
+  .logo-img {
+    position: absolute;
+    top: 5%; 
+    left: 5px;; 
+    /* Outros estilos podem ser adicionados conforme necessário */
+}
+
+
+.navbar-custom.navbar {
+  background-color:#77A290!important; 
+}
+
+.navbar-collapse{
+  justify-content: center;
+}
+
+/* Estilos para as palavras na barra de navegação */
+.navbar-nav .nav-link {
+  color:rgb(243, 242, 201); /* Cor das palavras */
+}
+
+/* Estilos para as palavras quando selecionar com o mouse */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+  color:rgba(88, 51, 33, 0.466); /* Cor das palavras quando selecionadas */
+}
+
+.navbar-toggler {
+  border-color:#fff; /* Cor da borda do botão */
+  background-color:#77A290;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* A cor 'stroke' definida para o ícone do botão, alterada para branco */
+}
+
+/* Estilo para as palavras da barra de navegação */
+.navbar-nav .nav-link {
+  text-decoration: none; /* Remover decoração padrão do link */
+  position: relative;
+  color:rgb(243, 242, 201); /* Cor do texto normal */
+}
+
+/* Estilo para a linha embaixo das palavras quando selecionadas */
+.navbar-nav .nav-link::after {
+  content: ''; /* Adiciona conteúdo vazio */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  bottom: -2px; /* Distância da linha em relação ao texto */
+  left: 0; /* Posição inicial da linha */
+  width: 0; /* Largura inicial da linha (invisível) */
+  height: 2px; /* Altura da linha */
+  background-color:rgba(88, 51, 33, 0.466); /* Cor da linha quando selecionada */
+}
+
+/* Estilo para a linha embaixo das palavras quando selecionadas, quando o mouse passa por cima */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after,
+.navbar-nav .nav-link:active::after {
+  width: 100%; /* Largura total */
+}
